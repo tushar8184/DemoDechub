@@ -51,7 +51,7 @@ const handleVideo = (e) => {
     !video.ended &&
     video.readyState > 2
   );
-  // console.log(isVideoPlaying);
+
   if (!isVideoPlaying) {
     video.play();
     document.getElementById("play_button").style.opacity = 0;
